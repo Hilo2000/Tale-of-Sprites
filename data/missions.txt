@@ -145,7 +145,7 @@ mission "M-1"
 					goto scientist
 				label stay
 
-				`	As you quietly wait outside the ship, you notice a few humanoid figures scurry past the windows, absorbed in their work. Suddenly, one of the exterior cameras flickers to life, and an audible yelp could be heard from the bridge. Within a minute, serveral figures line up by the window, frantically noting your appearance.`
+				`	As you quietly wait outside the ship, you notice a few humanoid figures scurry past the windows, absorbed in their work. Suddenly, one of the exterior cameras flickers to life, and an audible yelp could be heard from the bridge. Within a minute, several figures line up by the window, frantically noting your appearance.`
 				label scientist
 				`	One of the figures pushes their way to the front of the window. A white stainless lab coat trails behind their significant appearance, and a tablet in their hands radiates a straining blue light. They frantically sign to the other figures, before turning to face you.`
 				`	Acknowledging your unknowledge of their language, the figure resorts to frantically pointing towards the hull of their ship, signaling  for you to approach the large cargo airlock. You notice the other figures starting to file out, returning to their duties, with only a couple staying out of curiosity.`
@@ -158,7 +158,7 @@ mission "M-1"
 					`(Leave the site)`
 						goto leave
 				label airlock
-				`	You fly to the opening cargo bay, where serveral figures in pressurized suits step out into the cold vaccum of space. Their posture is upright and cautious, and five of them step out before sealing the blast door behind them.`
+				`	You fly to the opening cargo bay, where serveral figures in pressurized suits step out into the cold vacuum of space. Their posture is upright and cautious, and five of them step out before sealing the blast door behind them.`
 				`	The figures spread out around the open hull, but don't dare to approach you directly. Two of them pull out cameras, taking close-up photos of your condition and features. The rest watch in awe, having never been this close to a different species.`
 				`	The closest figure carefully inches closer to you and extends their arm, curious on how you will react to it.`
 				choice
@@ -187,8 +187,8 @@ mission "M-1"
 					defer
 				label brush
 				`	As you brush against the figure, your spines softly press against their pressurized suit, making them hold their breath in anticipation. Once you back away, however, they seem both relieved and a bit excited. As a token of graditude for your friendliness, they grab a sizeable chunk of aluminum and come back to offer it to you.`
-				`	They watch and record as you inhale the aluminum, it's taste metalic and exquisite. Delighted by your acceptance, they spend the next hour offering various rare metals-- all of them being amongst the best you've ever tasted.`
-				`	By the time the generators are up and running, the figures pensively sign to eachother before all waving goodbye. They withdraw back into the ship as its engines fire up and shields regenerate.`
+				`	They watch and record as you inhale the aluminum, it's taste metallic and exquisite. Delighted by your acceptance, they spend the next hour offering various rare metals-- all of them being amongst the best you've ever tasted.`
+				`	By the time the generators are up and running, the figures pensively sign to each other before all waving goodbye. They withdraw back into the ship as its engines fire up and shields regenerate.`
 					defer
 				label twirl
 				`	The scientists all watch in awe as you perform a move resembling that of a barrel roll. Your form twists as your spines brush against the low cargo ceiling, prompting an applause by the time you return right side up.`
@@ -199,7 +199,7 @@ mission "M-1"
 						goto nopaint
 				action
 					event "painted"
-				`	Cheerfully, the scientist uncaps the bottle and douces a fine brush with the dye. The sensation of being painted is odd, but not uncomfortable. By the time their generators roar back to life, your reflection gleams in the hull's interior. The scientists take more pictures of you before bowing and taking their leave.`
+				`	Cheerfully, the scientist uncaps the bottle and douses a fine brush with the dye. The sensation of being painted is odd, but not uncomfortable. By the time their generators roar back to life, your reflection gleams in the hull's interior. The scientists take more pictures of you before bowing and taking their leave.`
 				`	(You may have to land and take off for the coloring to register) 
 					defer
 				label nopaint
@@ -233,15 +233,15 @@ mission "Battle-1"
 mission "M-2"
 	landing "Nenia"
 	name "Visiting Remnant Ship"
-	description "After the battle, the same Remnant fighter from before has decided to check on you. Interaction is manditory."
+	description "After the battle, the same Remnant fighter from before has decided to check on you. Interaction is mandatory."
 	invisible
 	on offer
 		conversation
 			`As you settle in for the night, a familiar silhouette drifts above the atmosphere, spooking the void sprites around you. Recognizing the shadow, you drift towards the dark and organic freighter, eager for more outside interaction.`
 			`	As you approach, their scanners glide over your form several times, before the hull unlocks and hitches open once again. Several more figures jump out this time, a couple of which are equipped with various scientific and medical supplies.`
 			`	Three of the scientists inspect your body, spines, and fins. They go around and wrap up cuts or scrapes, and softly dab ointment on burns. Once they're finished with their treatment, one of them steps into your field of view and gives a reassuring thumbs-up.`
-			`	At this point, another scientist steps up, holding a flashing red device and a hologram. The hologram is dated with images of the previous battle-- with the attacking ships labled and circled. Then, the hologram plays an animation. It shows the blinking red device getting scattered like seeds through the system, only days prior to the initial attack. Then, it switches to a stream within the freighter's bridge during the attack-- once the red warning light of the receiver flickered on, the freighter immediately kicked into gear. Clearly, they got here as soon as they could.`
-			`	The scientist nods somberbly, giving you a pat on your head before heading back into the hull. As they float into the ship, you see a figure rush past a nearby window, not seeming too happy about the scientist petting you.`
+			`	At this point, another scientist steps up, holding a flashing red device and a hologram. The hologram is dated with images of the previous battle-- with the attacking ships labeled and circled. Then, the hologram plays an animation. It shows the blinking red device getting scattered like seeds through the system, only days prior to the initial attack. Then, it switches to a stream within the freighter's bridge during the attack-- once the red warning light of the receiver flickered on, the freighter immediately kicked into gear. Clearly, they got here as soon as they could.`
+			`	The scientist nods somberly, giving you a pat on your head before heading back into the hull. As they float into the ship, you see a figure rush past a nearby window, not seeming too happy about the scientist petting you.`
 			`	Before they shut the hatch, one scientist reaches in to grab a larger chunk of aluminum, sending it through space and towards your mouth. The taste is delicious and comfortable, like you finally found a long-awaited friend.`
 			`	The ship's engines start to roar, and the hull is sealed shut again as they start to fly. In the distance you can see them stop again, caring for another burnt sprite. Far in space, the Archon is pleased.`	
 				accept
@@ -288,7 +288,7 @@ mission "M-3"
 			label conc
 			`	After a little more thought, the scientist tinkers with the asteroid to project their thoughts:`
 			``
-			`	(A void sprite wiggles in frame of the holographic astroid)`
+			`	(A void sprite wiggles in frame of the holographic asteroid)`
 			`	(A munch is taken, and the asteroid bursts into pieces)`
 			`	(The sensor is broken, and it emitted an emergency signal back to the freighter)`
 			``
@@ -297,7 +297,7 @@ mission "M-3"
 				`(Wiggle goodbye)`
 				`(Linger for a bit longer)`
 					goto linger
-			`	The scientist waves goodbye, tossing some chunks of raw titanium a palate cleanser, right as the freighter’s engines fire back up and the shields rearm. Before leaving once again, the scientist gestures a heart with their hands, as the hull seals shut once again and the engines roar to life. The freighter regroups with the warships, and from the edge of your eyesight, you notice another sensor get jettisoned into space.`
+			`	The scientist waves goodbye, tossing some chunks of raw titanium as palate cleanser, right as the freighter’s engines fire back up and the shields rearm. Before leaving once again, the scientist gestures a heart with their hands, as the hull seals shut once again and the engines roar to life. The freighter regroups with the warships, and from the edge of your eyesight, you notice another sensor get jettisoned into space.`
 				accept
 			label linger
 			`	The scientist, about to leave, looks back in interest. An idea springs into their mind, as they quickly pop into the cargo hold to grab a tube. Coming back out, they brandish a bottle of blue dye, offering to give you a 'makeover.'`
@@ -355,8 +355,8 @@ mission "M-4"
 		has "event: last invasion"
 	on fail
 		conversation
-			`	You can't tell whether the burning feeling inside you was from the insense battle or the warm atmosphere, but as you continue decending, you realize that one ship is missing from the standing fleet.`
-			`	...the frieghter. The same freighter who cared for you and the other sprites since the first battle. The moist gas in the air mixes with a single forming tear as you finally arrive at your favorite nesting spot.`
+			`	You can't tell whether the burning feeling inside you was from the intense battle or the warm atmosphere, but as you continue descending, you realize that one ship is missing from the standing fleet.`
+			`	...the freighter. The same freighter who cared for you and the other sprites since the first battle. The moist gas in the air mixes with a single forming tear as you finally arrive at your favorite nesting spot.`
 			`	You never knew why they decided to jump into battle, but maybe, it was because they couldn’t bear to watch the fight without helping.`
 	npc save
 		government "Remnant"
