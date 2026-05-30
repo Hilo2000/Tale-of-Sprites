@@ -1,0 +1,56 @@
+start "void sprite"
+	name "Void Sprite"
+	description `You wake up, you much on rocks, and you fall asleep. How relaxing.`
+	thumbnail "scene/hai start"
+	system "Nenia"
+	planet "Nasqueron"
+	date 16 11 3013
+	conversation "void intro"
+	account
+		credits 0
+		score 0
+	ship "Void Sprite"
+		name "You"
+		sprite "ship/void sprite/void sprite adult"
+			"frame rate" 14.3
+			"random start frame"
+			rewind
+		thumbnail "thumbnail/void sprite adult"
+		"never disabled"
+		attributes
+			category "Unclassified"
+			"hull" 9600
+			"required crew" 1
+			"bunks" 1
+			"mass" 700
+			"drag" 12.3
+			"heat dissipation" .54
+			"cargo space" 40
+			"outfit space" 20
+			"thrust" 30
+			"turn" 1350
+			"hull repair rate" 3
+			"ion protection" 3
+			"scramble protection" 3
+			"ion resistance" 1
+			"scramble resistance" 1
+			"energy capacity" 1
+			"fuel capacity" 1
+			"inscrutable" 1
+			"gaslining" 1
+		outfits
+			Mouthparts? 2
+			"Void Sprite Parts" 20
+		gun 0 -156
+		gun 0 -156
+		leak "blood" 40 40
+		explode "blood" 40
+		"final explode" "void sprite adult death"
+		description "The void sprites are an enigmatic species under the watchful gaze of the Archon originally discovered in the Nenia system. The species' connection is unknown, but the Archon seem particularly protective of them."
+
+
+conversation "void intro"
+	`The void calls for you to munch on rocks. Please call your name out to the void.`
+	name
+	`	Now go out there, and much all of the rocks that you can!`
+	
