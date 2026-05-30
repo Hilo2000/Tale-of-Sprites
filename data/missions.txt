@@ -396,10 +396,10 @@ mission "M-4"
 				"'olofez" 14
 		on disable
 			conversation
-				`Looking around you at the floating space debris and the chunks of ship calmly floating through the still vacuum, the freighter slowly pulls next to your elegant form, grinding to a halt beside you.`
+				`Looking around at the floating space debris and the chunks of ship drifting through the still vacuum, the freighter slowly pulls next to your elegant form, grinding to a halt beside you.`
 				`	Echoes of celebration vibrate through the air as a flood of figures empties through the shuts of the ship to greet you. Seeing the accomplishments of the battle, the lead scientist gives you a good hug on one of your arms, forming a heart with their hands.` 
-				`	The other scientists watch in awe and relief, proud and surprised that you made it out of such a battle. To celebrate your survival, one of the scientists places a small aluminum crown on your head, before the flash of a picture soaks through the dark space.`
-				`	They all cheer and jump through their thick white suits, as you match their energy with frequent wiggling and your best attempt at a smile. Even the archon seems to loom closer, its massive presence tangible to everyone around you. What happened today will be a historic day for both you and the remnant.`
+				`	The other scientists watch in relief, proud and surprised that you made it out of such a battle. To celebrate your survival, one of the scientists places a small aluminum crown on your head, before the flash of a picture soaks through the dark space.`
+				`	They all cheer and jump through their thick white suits, as you match their energy with frequent wiggling and your best attempt at a smile. Even the archon seems to loom closer, its massive presence becomes tangible to everyone around you. What happened today will be a historic day for both you and the remnant.`
 
 # Concept: Human missions
 
