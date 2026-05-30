@@ -347,7 +347,7 @@ mission "M-4"
 		conversation
 			`This time, when the booming of drives echo across the atmosphere, the feeling of dread shivers down your spine. Unlike last time, the intruders are clearly hostile, guns blazing at anything and everything.`
 			`	The archon fades into life, emitting huge beams of light at the intruders, but even you doubt if it will be enough to hold off the attack– yet alone save all of the sprites that are in space.`
-			`	When you start to retreat back into the lower atmosphere, your eyes light up when even more ships jump into the system– this time, they’re your friends, coming to help as promised. It appears that the sensors alerted them of the attack in time.`
+			`	When you start to retreat back into the lower atmosphere, your eyes light up when even more ships jump into the system. This time, they are your friends, coming to help as promised. It appears that the sensors alerted them of the attack in time.`
 			`	Ultimately, you decide to join the fray. Perhaps you can snag a good meal from ships that they disable.`
 				accept			
 	to offer
