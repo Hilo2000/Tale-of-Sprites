@@ -1,6 +1,6 @@
 start "void sprite"
 	name "Void Sprite"
-	description `You wake up, you much on rocks, and you fall asleep. How relaxing.`
+	description `You wake up as a void sprite on Nasqueron. Your childhood has been spent munching on rocks and socializing with other spries, and that will continue into your adulthood... with minor changes. Go out there, meet new beings, and be the silly sprite you've always wanted to be!`
 	thumbnail "scene/hai start"
 	system "Nenia"
 	planet "Nasqueron"
@@ -50,7 +50,8 @@ start "void sprite"
 
 
 conversation "void intro"
-	`The void calls for you to munch on rocks. Please call your name out to the void.`
+	`Until now, you've never really thought about anything except delicious rocks and restful nights. You've had your entire life set out for you-- simply eat, sleep and repeat. Today, that changed. You woke up, and you wanted something more in your life.`
+	`	You wanted an identity-- something to call yourself by! Even though people may never use it, or even understand it, this will put your mind at rest.`
 	name
-	`	Now go out there, and much all of the rocks that you can!`
+	`	It's perfect... but your stomach disregards your revelation in philosophy. It requires a good aluminum breakfast-- perfect for the brisk morning. You best go out and start hunting.`
 	
