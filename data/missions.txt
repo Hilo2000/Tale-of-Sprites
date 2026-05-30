@@ -269,7 +269,7 @@ mission "M-3"
 	on offer
 		conversation
 			`The morning starts with the sound of multiple warships jumping into the system. The freighter leads the pack, directing them towards an expected large Korath fleet, but to their surprise, nobody was there. The warships slowly break off from formation, taking the opportunity to scan nearby sprites and immerse themselves in the ember wastes. `
-			`	As usual, the large bulk hisses open, this time releasing one figure instead of the usual scientific team or group. You can recognize the figure as the scientist who you first met through the starship window– his facial features still oddly apparent through both forms of glass. He holds up a hologram:`
+			`	When the freighter approaches, the large hull hisses open, this time only releasing one figure instead of the usual scientific group. You can recognize the figure as the scientist who you first met through the starship window– his facial features still oddly apparent through both forms of glass. He holds up a hologram:`
 			``
 			`	(The hologram displays a large asteroid in this system)`
 			`	(Zooming in on the asteroid, a small scanner / sensor is embedded on its north side)`
