@@ -1,3 +1,4 @@
 name "Tale of Sprites"
-about "Enter some text that describes your plugin here. This text will be displayed in the plugin description box when you have installed and selected your plugin."
-about "Use multiple 'about' nodes to create new paragraphs in the description box, if necessary."
+about "Play as a lone void sprite navigating the dark system of Nenia. Encounter the Remnant and the Korath in a quest for new friends while defending yourself and your fellow sprites."
+about "Warnings:  this mod tweaks Drak / Korath government settings for proper battles (disabling is reccomended when not in use) - this mod requires the use of the provided start to function correctly"
+about "Enjoy! :)"
