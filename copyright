@@ -5,3 +5,8 @@ Source: https://github.com/Hilo2000/Tale-of-Sprites/
 
 Files: *
 Copyright: Mila S. judge.tau1@gmail.com
+
+Files:
+ icon*.png
+Copyright: Michael Zahniser <mzahniser@gmail.com>
+License: CC-BY-SA-4.0
