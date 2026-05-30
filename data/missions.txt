@@ -191,7 +191,7 @@ mission "M-1"
 				`	By the time the generators are up and running, the figures pensively sign to each other before all waving goodbye. They withdraw back into the ship as its engines fire up and shields regenerate.`
 					defer
 				label twirl
-				`	The scientists all watch in awe as you perform a move resembling that of a barrel roll. Your form twists as your spines brush against the low cargo ceiling, prompting an applause by the time you return right side up.`
+				`	The scientists all watch as you perform a move resembling that of a barrel roll. Your form twists as your spines brush against the low cargo ceiling, prompting an applause by the time you return right side up.`
 				`	As a reward, the scientists shower you in precious metals for the remainder of the hour. One even offers to styalize you, hesitantly holding up a bottle of magenta stained dye.`
 				choice 
 					`(Nod)`
