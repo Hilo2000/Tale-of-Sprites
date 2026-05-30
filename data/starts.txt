@@ -1,7 +1,7 @@
 start "void sprite"
 	name "Void Sprite"
 	description `You wake up as a void sprite on Nasqueron. Your childhood has been spent munching on rocks and socializing with other spries, and that will continue into your adulthood... with minor changes. Go out there, meet new beings, and be the silly sprite you've always wanted to be!`
-	thumbnail "scene/banner"
+	thumbnail "land/nasa8"
 	system "Nenia"
 	planet "Nasqueron"
 	date 16 11 3013
