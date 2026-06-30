@@ -1,0 +1,76 @@
+event Alt-2
+	government "Remnant"
+		"attitude toward"
+			"Player" -1000
+	government "Drak"
+		"attitude toward"
+			"Player" 1000
+# Just to be safe
+
+# Mission 1 (Battle)
+mission "Alt-Battle"
+	landing
+	name "First Remnant Invasion"
+	description "Seeking revenge, the Remnant have assembled a small squad to hunt the sprite that has harmed their stranded freighter."
+	invisible
+	on offer
+		accept
+	to offer
+		has "event: Alt-1"
+	npc kill
+		government "Remnant"
+		personality uninterested quiet waiting staying
+		system "Nenia"
+		fleet
+			names "remnant"
+			variant
+				"Starling" 3
+				"Peregrine" 1
+		on disable
+			conversation
+				`	The silent pieces of space debris are louder than the commotion of the nearby Sprites, who continue to go about their day after the ringing of the explosions stop. You recognize the attacking ships as familiars to the stranded freighter a couple days ago, but you don't exactly know why they decided to retaliate.`
+				`The nearby archon fades back into the cold space, signaling that you'll be left alone with your thoughts for the rest of the day...`
+	on complete
+		event Alt-2 3
+		
+
+# Mission 2 (Climax)
+mission "Alt-Climax"
+	landing
+	name "Remnant Deal"
+	description "It appears that a high ranking Remnant offical wants to talk things out..."
+	invisible
+	on offer
+		conversation
+			`The nose of a black organic ship pierces the horizon once again, but this time, without any escorts. You are surprised to see that the ship, instead of engaging, decides to slow down and stop. You notice waves of sounds and sensors emit from it, as if it was merely observing or trying to make contact...`
+				accept
+	to offer
+		has "event: Alt-2"
+	npc assist
+		government "Remnant"
+		personality uninterested quiet derelict
+		system "Nenia"
+		ship "Albatross" "Chicken Sandwhich"
+		on board
+			conversation
+				`	After some drifting, with hundreds potential scenarios polluting your mind, you finally arrive at the open cargo hatch. The aliens in white finally step out to greet you, as if reuniting with an old friend. Their gestures resonated with trust and politeness, but you know better than to blindly fall into their hands.`
+				`Some idle wiggling later, you notice a scientist slowly creep up towards the edge of your eyesight, instinctually making you wiggle back, but as you do, you feel the sharp prick of a needle land on your opposite side.`
+				``
+				`"This one is tainted by the spirits..."`
+				``
+				`It took you seconds to realize what happened, but once you realized, you could do nothing but let your consciousness fade. You'll never see here again. Not your friends, family, or archon.`
+				`You awaken several days later in an unfamiliar setting. The sky is hazy, and you feel sluggish and cloudy. In the distance, you can spot the alien ship burnt and almost broken, but no one else in sight. Light bleeds through windows in a far away construct, but as you attempt to swim towards it, you face collides into a transparent wall.`
+				`Your future looks as bleak as the cell you are mindlessly floating in...`
+					die
+		on kill
+			conversation
+				`	As the eruptions start to sparkle around the now-defeated alien ship, you can't help but watch the ship slowly tear itself into bits. The Archon seems to join you, it's presence revealing it to be floating next to you.`
+				`"There is never a right or wrong decision, but it appears this one saved your life," the words intrude into your thoughts like a soft spoken comment.`
+				`The following silence drags on for the remainder of the explosions. Even the Archon is at a loss for words. The only thing it can conclude is that the aliens won't attempt any more 'negotiations' for a while.`
+				`Glimpsing back toward the Archon, you realize it disappeared to continue its duties.`
+				``
+				`A lab coat crosses your vision like a tumbleweed.`
+				``
+				`Your stomach rumbles like it once did. Time for food, once again.`
+					defer
+			
